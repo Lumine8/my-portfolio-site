@@ -102,16 +102,17 @@
 
     .aboutImg{
       position:relative;
-      top: -35rem;
+      top: -39rem;
       margin: -30rem auto;
       max-width: 70%;
-      // display: none;
+      display: none;
 
       transform: translate(50%,120%);
     }
     .about-me {
-      margin: 5rem auto;
+      // margin: 5rem -3rem 5rem 0;
       // -15rem 0 5rem;
+      margin: 0 auto 0 2rem;
       border: 1px solid white;
       max-width: 70%;
       padding: 3rem;
