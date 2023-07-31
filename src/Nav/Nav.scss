@@ -34,6 +34,9 @@ nav {
     -webkit-filter: drop-shadow(5px 5px 5px rgb(255, 255, 255));
     filter: drop-shadow(5px 5px 5px rgba(255, 253, 253, 0.992));
   }
+  @media (max-width: 1220px) {
+    margin: -3rem 0;
+  }
 }
 
 .rotate {

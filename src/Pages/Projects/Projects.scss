@@ -13,6 +13,27 @@
     ul {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
+      margin-left: -5rem;
     }
   }
+}
+
+.project-h1-img {
+  max-width: 30%;
+  margin-bottom: -5rem;
+
+  &:hover {
+    // -webkit-filter: drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.601));
+    filter: drop-shadow(5px 5px 5px rgba(255, 253, 253, 0.43));
+  }
+}
+@media (max-width: 1200px) {
+  .project-h1-img {
+    max-width: 30%;
+    margin-bottom: -2rem;
+  }
+}
+
+h1 {
+  font-weight: lighter;
 }

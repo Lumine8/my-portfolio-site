@@ -5,7 +5,8 @@
     max-width: 30rem;
     min-height: 20rem;
     margin-bottom: -0.4rem;
-    object-fit:cover;
+    filter: brightness(50%);
+    object-fit: cover;
   }
   .project-desc {
     position: relative;
@@ -13,27 +14,31 @@
     max-width: 50%;
     max-height: 19rem;
     text-align: left;
-    margin: auto;
+    margin: -5rem auto;
     padding: 15px;
     border: 2px solid rgba(6, 6, 6, 0.673);
     // border-radius: 10px;
     background-color: rgba(6, 6, 6, 0.673);
-    
-    a{
-        color: azure;
-        padding:10px;
+
+    h2 {
+      font-weight: lighter;
     }
-    .card-links{
-        position: relative;
-        z-index: 999;
-        float: right;
-        max-width: 35%;
-        min-height: 20px;
-        // border: 2px solid azure;
-        padding: 2px;
-        // margin-right: -3rem;
-        box-shadow: 2px 2px 5px black;
-        background-color: #970B0A;
+
+    a {
+      color: azure;
+      padding: 10px;
+    }
+    .card-links {
+      position: relative;
+      z-index: 999;
+      float: right;
+      max-width: 35%;
+      min-height: 20px;
+      // border: 2px solid azure;
+      padding: 2px;
+      // margin-right: -3rem;
+      box-shadow: 2px 2px 5px black;
+      background-color: #970b0a;
     }
   }
 }
