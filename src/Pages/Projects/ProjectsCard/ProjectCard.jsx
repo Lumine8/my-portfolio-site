@@ -12,7 +12,7 @@ export default function ProjCard({ props }) {
       <div className="project-desc">
         <p>
           <i>{subtitle}</i>
-          <h2>{title}</h2>
+          <h2 style={{ fontWeight: "lighter" }}>{title}</h2>
         </p>
         <p>{desc}</p>
         <div className="card-links">

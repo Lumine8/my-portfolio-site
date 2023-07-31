@@ -9,8 +9,13 @@ export default function Home() {
       <NavLinks />
       <div className="home">
         <p className="home3">Hi, I am - </p>
-        <h1 className="home1"> Sankar Gopan.</h1>
-        <h1 className="home2">I Build Web Applications.</h1>
+        <h1 style={{ fontWeight: "lighter" }} className="home1">
+          {" "}
+          Sankar Gopan.
+        </h1>
+        <h1 style={{ fontWeight: "lighter" }} className="home2">
+          I Build Web Applications.
+        </h1>
         <p className="home3">
           {"<p> "} Frontend Developer / Web Developer {" </p>"}
         </p>
@@ -32,10 +37,10 @@ export default function Home() {
 
       <div className="about-container">
         <div>
-        <img className="aboutImg" src={codePc} alt="me"/>
+          <img className="aboutImg" src={codePc} alt="me" />
         </div>
         <div className="about-me">
-          <h2>About Me</h2>
+          <h2 style={{ fontWeight: "lighter" }}>About Me</h2>
           <p>
             I'm your friendly Neighborhood developer specializing in front-end
             Developement (and I'm currently learning full-stack developement). I
