@@ -1,0 +1,18 @@
+.Projects-Container {
+  margin: 0 auto;
+  max-width: 80%;
+  ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  ul li {
+    margin: 2rem;
+    list-style: none;
+  }
+  @media (max-width: 1270px) {
+    ul {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}
