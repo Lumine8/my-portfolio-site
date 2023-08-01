@@ -17,10 +17,10 @@ export default function ProjCard({ props }) {
         <p>{desc}</p>
         <div className="card-links">
           <p>
-            <a href={website}>
+            <a href={website} target="_blank">
               <BiLinkExternal />
             </a>
-            <a href={github}>
+            <a href={github} target="_blank">
               <BiLogoGithub />
             </a>
           </p>

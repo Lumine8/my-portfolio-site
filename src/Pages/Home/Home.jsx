@@ -1,6 +1,7 @@
 import NavLinks from "../../Nav/NavLinks";
 import logo from "../../assets/Logo11.svg";
 import codePc from "../../assets/abc1.png";
+import Resume from "../../assets/Resume/Sankar_Gopan_Resume.pdf"
 import "./Home.scss";
 
 export default function Home() {
@@ -56,6 +57,7 @@ export default function Home() {
             experience of almost an year and counting in building React.js
             applications.
           </p>
+          <button><a href={Resume} target="_blank" style={{color:"aliceblue"}}>Download Resume</a></button>
         </div>
       </div>
     </div>
