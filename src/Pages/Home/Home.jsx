@@ -38,7 +38,7 @@ export default function Home() {
 
       <div className="about-container">
         <div>
-          <img className="aboutImg" src={codePc} alt="me" />
+          {/* <img className="aboutImg" src={codePc} alt="me" /> */}
         </div>
         <div className="about-me">
           <h2 style={{ fontWeight: "lighter" }}>About Me</h2>
