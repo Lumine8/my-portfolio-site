@@ -39,16 +39,16 @@ nav {
   }
 }
 
-.rotate {
-  animation: rotation 8s linear;
-  animation-iteration-count: 1;
-}
+// .rotate {
+//   animation: rotation 8s linear;
+//   animation-iteration-count: 1;
+// }
 
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
-}
+// @keyframes rotation {
+//   from {
+//     transform: rotate(0deg);
+//   }
+//   to {
+//     transform: rotate(359deg);
+//   }
+// }
