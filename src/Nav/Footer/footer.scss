@@ -1,0 +1,13 @@
+#footer {
+    // // position: static;
+    // left: 0;
+    // right: 0;
+    // bottom: 0;
+    // width: 100%;
+    // background-color: red;
+
+    @media (max-width: 1220px) {
+        // visibility: hidden;
+        transform: translate(10rem , 2rem);
+    }
+  }

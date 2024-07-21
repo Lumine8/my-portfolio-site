@@ -1,6 +1,6 @@
 import NavLinks from "../../Nav/NavLinks";
-import logo from "../../assets/Logo11.svg";
-import codePc from "../../assets/abc1.png";
+// import logo from "../../assets/Logo11.svg";
+// import codePc from "../../assets/abc1.png";
 import Resume from "../../assets/Resume/Sankar_Gopan_Resume.pdf"
 import "./Home.scss";
 
@@ -18,7 +18,7 @@ export default function Home() {
           I Build Web Applications.
         </h1>
         <p className="home3">
-          {"<p> "} Frontend Developer / Web Developer {" </p>"}
+          {"<p> "} Frontend Developer/Web Developer {" </p>"}
         </p>
         {/* <p className="home3">
           {"<p> "}I've been building websites since early 2020 and have proven
@@ -43,8 +43,8 @@ export default function Home() {
         <div className="about-me">
           <h2 style={{ fontWeight: "lighter" }}>About Me</h2>
           <p>
-            I'm your friendly Neighborhood developer specializing in front-end
-            Developement (and I'm currently learning full-stack developement). I
+            {"I'm"} your friendly Neighborhood developer specializing in front-end
+            Developement (and {"I'm"} currently learning full-stack developement). I
             create websites and stories to share. Based in India, been building
             websites since early 2020 and have proven expertise in frontend
             developement using React.js library, HTML5, CSS (and newly added to
@@ -57,7 +57,7 @@ export default function Home() {
             experience of almost an year and counting in building React.js
             applications.
           </p>
-          <button><a href={Resume} target="_blank" style={{color:"aliceblue"}}>Download Resume</a></button>
+          <button><a href={Resume} target="_blank" style={{color:"aliceblue"}} rel="noreferrer">Download Resume</a></button>
         </div>
       </div>
     </div>
