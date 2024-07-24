@@ -26,6 +26,9 @@ export default function NavLinks() {
         <NavLink style={getActiveStyle} className="navlink" to="/Blogs">
           <h2 style={{ fontWeight: "lighter" }}>Blogs</h2>
         </NavLink>
+        {/* <NavLink style={getActiveStyle} className="navlink" to="/Contact">
+          <h2 style={{ fontWeight: "lighter" }}>Contact</h2>
+        </NavLink> */}
       </nav>
     </div>
   );

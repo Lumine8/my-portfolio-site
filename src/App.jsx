@@ -16,7 +16,7 @@ function App() {
           type="video/ogg"
         />
       </video> */}
-      <Footer/>
+      <Footer />
     </>
   );
 }

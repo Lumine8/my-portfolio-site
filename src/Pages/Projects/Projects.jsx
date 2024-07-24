@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from "uuid";
 import NavLinks from "../../Nav/NavLinks";
 import "./Projects.scss";
 import cartProject from "../../assets/ProjectsPicks/Panda-Cart.png";
-import projec from "../../assets/ProjectsPicks/projec.png";
+// import projec from "../../assets/ProjectsPicks/projec.png";
 import socialMedia from "../../assets/ProjectsPicks/React-App.png";
 import ProjCard from "./ProjectsCard/ProjectCard";
 import MeetUp from "../../assets/ProjectsPicks/MiniProjec/MeetUp.png"

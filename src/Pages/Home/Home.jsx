@@ -1,7 +1,7 @@
 import NavLinks from "../../Nav/NavLinks";
 // import logo from "../../assets/Logo11.svg";
 // import codePc from "../../assets/abc1.png";
-import Resume from "../../assets/Resume/Sankar_Gopan_Resume.pdf"
+import Resume from "../../assets/Resume/Sankar_Gopan_Resume.pdf";
 import "./Home.scss";
 
 export default function Home() {
@@ -37,27 +37,32 @@ export default function Home() {
       </div>
 
       <div className="about-container">
-        <div>
-          {/* <img className="aboutImg" src={codePc} alt="me" /> */}
-        </div>
+        <div>{/* <img className="aboutImg" src={codePc} alt="me" /> */}</div>
         <div className="about-me">
           <h2 style={{ fontWeight: "lighter" }}>About Me</h2>
           <p>
-            {"I'm"} your friendly Neighborhood developer specializing in front-end
-            Developement (and {"I'm"} currently learning full-stack developement). I
-            create websites and stories to share. Based in India, been building
-            websites since early 2020 and have proven expertise in frontend
-            developement using React.js library, HTML5, CSS (and newly added to
-            my tech-stack: SCSS) and JavaScript (ES6) with various frontend
-            based projects.
+            {"I'm"} your friendly Neighborhood developer specializing in
+            front-end Developement (and {"I'm"} currently learning full-stack
+            developement). I create websites and stories to share. Based in
+            India, been building websites since early 2020 using React.js
+            library, HTML5, CSS (and newly added to my tech-stack: SCSS) and
+            JavaScript (ES6).
           </p>
           <p>
-            As a front-end developer, I am passionate about building and
-            delievering scalable and user-friendly web-applications. With an
-            experience of almost an year and counting in building React.js
-            applications.
+            As a developer, I am passionate about building and delievering
+            scalable and user-friendly applications. With an experience of more
+            than 2 years and counting in building React.js applications.
           </p>
-          <button><a href={Resume} target="_blank" style={{color:"aliceblue"}} rel="noreferrer">Download Resume</a></button>
+          <button>
+            <a
+              href={Resume}
+              target="_blank"
+              style={{ color: "aliceblue" }}
+              rel="noreferrer"
+            >
+              Download Resume
+            </a>
+          </button>
         </div>
       </div>
     </div>
