@@ -2,12 +2,12 @@ import { BsFillHeartFill } from "react-icons/bs";
 import { FaReact, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 import "./Footer.scss";
-import NavLinks from "../NavLinks";
+// import NavLinks from "../NavLinks";
 
 export function Footer() {
   return (
     <>
-      <NavLinks />
+      {/* <NavLinks /> */}
       <div id="footer">
         <p>
           Made with{" "}
