@@ -1,3 +1,4 @@
+import { Footer } from "../../Nav/Footer/Footer";
 import NavLinks from "../../Nav/NavLinks";
 
 export default function Blogs() {
@@ -10,6 +11,7 @@ export default function Blogs() {
       <div className="Blogs-container">
         <h1 style={{ fontWeight: "lighter" }}>Nothing to see here...yet</h1>
       </div>
+      <Footer />
     </div>
   );
 }

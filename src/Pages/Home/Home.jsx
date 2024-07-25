@@ -1,3 +1,4 @@
+import { Footer } from "../../Nav/Footer/Footer";
 import NavLinks from "../../Nav/NavLinks";
 // import logo from "../../assets/Logo11.svg";
 // import codePc from "../../assets/abc1.png";
@@ -65,6 +66,7 @@ export default function Home() {
           </button>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

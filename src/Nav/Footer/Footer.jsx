@@ -15,7 +15,7 @@ export function Footer() {
           <FaReact style={{ color: "cyan", marginBottom: "-3px" }} />
           <br />
           All rights reserved &copy; {new Date().getFullYear()}, Created by:
-          Lumine8
+          Lumine8 {"(Sankar)"}
           <br />
           <a
             href="https://github.com/Lumine8"

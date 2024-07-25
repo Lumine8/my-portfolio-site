@@ -1,5 +1,5 @@
 import "./App.scss";
-import { Footer } from "./Nav/Footer/Footer";
+// import { Footer } from "./Nav/Footer/Footer";
 import NavRoutes from "./Nav/NavRoute";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
           type="video/ogg"
         />
       </video> */}
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

@@ -6,8 +6,9 @@ import cartProject from "../../assets/ProjectsPicks/Panda-Cart.png";
 // import projec from "../../assets/ProjectsPicks/projec.png";
 import socialMedia from "../../assets/ProjectsPicks/React-App.png";
 import ProjCard from "./ProjectsCard/ProjectCard";
-import MeetUp from "../../assets/ProjectsPicks/MiniProjec/MeetUp.png"
-import Recipie from "../../assets/ProjectsPicks/MiniProjec/recipieBook.png"
+import MeetUp from "../../assets/ProjectsPicks/MiniProjec/MeetUp.png";
+import Recipie from "../../assets/ProjectsPicks/MiniProjec/recipieBook.png";
+import { Footer } from "../../Nav/Footer/Footer";
 
 export default function Projects() {
   const projectsListing = [
@@ -39,31 +40,31 @@ export default function Projects() {
   ];
 
   const miniProjectListing = [
-    {_id:uuidv4(),
+    {
+      _id: uuidv4(),
       title: "MeetUp",
       subtitle: "Event-management",
       desc: "MeetUp is an Event Management website, which allows its user to search for an event they want to be a part of and with details.",
       website: "https://tvtrmr-3000.csb.app/",
       github: "https://github.com/Lumine8/Meetup-EventManagement",
-      img:MeetUp,
+      img: MeetUp,
     },
-    {_id:uuidv4(),
+    {
+      _id: uuidv4(),
       title: "Recipie-Book",
       subtitle: "Recipie-Manager",
       desc: "Recipie-Book is a website that records and displays recipies. You can easily record recipies and view them at your convenience",
       website: "https://7vj43d-3000.csb.app/",
       github: "https://github.com/Lumine8/Recipie-Book",
-      img:Recipie,
+      img: Recipie,
     },
-
-  ]
-
+  ];
 
   return (
     <div className="container">
       <NavLinks />
       <div>
-        <h1 style={{paddingTop:"1rem"}}>
+        <h1 style={{ paddingTop: "1rem" }}>
           {" "}
           {/* <img src={projec} alt="projects" className="project-h1-img" /> */}
           Projects.
@@ -82,11 +83,11 @@ export default function Projects() {
             );
           })}
         </ul>
-        </div>
-        <hr/>
-        <h2>Mini Projects</h2>
-        <div className="Projects-Container">
-          <ul>
+      </div>
+      <hr />
+      <h2>Mini Projects</h2>
+      <div className="Projects-Container">
+        <ul>
           {miniProjectListing.map((item) => {
             const { _id, title, subtitle, desc, website, github, img } = item;
             return (
@@ -96,8 +97,10 @@ export default function Projects() {
                 />
               </li>
             );
-          })}</ul>
+          })}
+        </ul>
       </div>
+      <Footer />
     </div>
   );
 }
